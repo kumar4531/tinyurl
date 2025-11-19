@@ -172,8 +172,4 @@ MIT
 
 ## Author
 
-Your Name
-
----
-
-**Note:** Make sure MongoDB is running before starting the application.
+Kumar
