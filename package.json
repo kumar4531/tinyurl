@@ -1,0 +1,25 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "A bit.ly clone URL shortener service built with Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["url-shortener", "express", "nodejs", "bitly-clone"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nanoid": "^3.3.7",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
